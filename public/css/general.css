@@ -1,0 +1,24 @@
+:root {
+    --color-Amarillo: #EAC926;
+    --color-Azul: #03264C;
+    --color-Celeste: #1259c3;
+    --color-Gris-oscuro: #666;
+    --color-Gris-claro: #ebebeb;
+    --color-Verde: #39b54a;
+    --fuente-Roboto: 'Roboto', sans-serif;
+    --cuerpo-textos: 12px;
+    --basadoEnUltimasVisitas: 24px;
+    --ofertas: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
+}
+
+* { 
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--fuente-Roboto);
+}

@@ -1,0 +1,60 @@
+.header_img_logo {
+    width: 40%;
+    margin: 20px;
+}
+
+.header_barra_de_busqueda {
+    width: 50%;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 20px;
+    font-size: 90%;
+}
+
+.header_icono_lupa {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    margin: 2px 0px 10px 20px;
+    border: 1px solid black;
+}
+
+.header_compra_en_cuotas {
+    text-align: center;
+}
+
+header article i {
+    margin-right: 5px;
+}
+
+header nav ul li i {
+    margin-left: 5px;
+}
+
+.header_listas_margen {
+    margin: 20px 0px;
+    display: block;
+}
+
+.header_burguer_menu {
+    width: 22px;
+    height: 24px;
+    background-color: var(--color-Azul);
+    color:white;
+    margin: 20px 50%;
+    text-align: center;
+}
+
+.burger-menu {
+    background-color:  var(--color-Celeste);
+    color:white;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45%;
+    margin-bottom: 5%;
+    padding: 6px 9px; 
+
+}
