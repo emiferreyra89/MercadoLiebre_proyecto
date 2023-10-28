@@ -21,6 +21,10 @@
     border: 1px solid black;
 }
 
+header nav {
+    display: none;
+}
+
 .header_compra_en_cuotas {
     text-align: center;
 }
@@ -38,15 +42,6 @@ header nav ul li i {
     display: block;
 }
 
-.header_burguer_menu {
-    width: 22px;
-    height: 24px;
-    background-color: var(--color-Azul);
-    color:white;
-    margin: 20px 50%;
-    text-align: center;
-}
-
 .burger-menu {
     background-color:  var(--color-Celeste);
     color:white;
@@ -57,4 +52,57 @@ header nav ul li i {
     margin-bottom: 5%;
     padding: 6px 9px; 
 
+}
+
+@media (min-width: 361px){
+
+.header_buscador {
+    display: flex;
+    width: 60%;
+}
+
+.header_barra_de_busqueda{
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+    width: 90%;
+    height: 25px;
+    font-size: 85%;
+}
+
+.header_icono_lupa{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    margin: 0px;
+}
+
+.header_compra_en_cuotas {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+}
+
+@media (min-width: 769px){
+    header {
+        padding-bottom: 20px;
+    }
+
+    header nav {
+        display: inline;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .header_listas_margen {
+        margin: 0px;
+    }
+
+    .header_buscador {
+        width: 35%;
+    }
 }
