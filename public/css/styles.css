@@ -1,11 +1,16 @@
 @import './general.css';
 @import './header.css';
+@import './home.css';
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
-img {
-    width: 100%;
+main {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
 }
 
 body {
@@ -27,7 +32,11 @@ header ul {
 }
 
 .body_banner {
-    height: 10%;
+    width: 100%;
+}
+
+body section img {
+    width: 100%;
 }
 
 body main section {
@@ -53,32 +62,4 @@ footer section i {
 
 footer article p {
     margin: 30px 0px 20px 20px ;
-}
-
-.subtitulo_ultima_visita {
-    font-size: var(--basadoEnUltimasVisitas);
-    margin: 10px 0px;
-    text-align: center;
-}
-
-.cuerpos_de_texto {
-    font-size: 12px;
-}
-
-.subtitulo_oferta {
-    font-size: var(--ofertas); 
-    margin: 10px 0px;
-    text-align: center;
-}
-
-.precios {
-    font-size: var(--precios);
-}
-
-.descuentos {
-    font-size: var(--descuentos);
-}
-
-.main_descripcion_producto {
-    display: none;
 }

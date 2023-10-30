@@ -1,0 +1,76 @@
+.subtitulo_ultima_visita {
+    font-size: var(--basadoEnUltimasVisitas);
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.cuerpos_de_texto {
+    font-size: 12px;
+}
+
+.subtitulo_oferta {
+    font-size: var(--ofertas); 
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.main_section_articulos {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.main_section_articulos_imagen-producto {
+    display: inline;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+}
+
+main section div img {
+    width: 100%;
+}
+
+.main_section_articulos_descripcion-producto {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding-top: 2%;
+}
+
+.main_icono_envio {
+    border:1px solid #179217 ;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding-top: 1px;
+    padding-left: 3px;
+}
+
+.precios {
+    font-size: var(--precios);
+}
+
+.descuentos {
+    font-size: var(--descuentos);
+    color: #179217;
+}
+
+.main_descripcion_producto {
+    display: none;
+    padding-top: 3%;
+}
+
+@media (min-width: 361px){
+
+    .main_section_articulos {
+        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+    }
+    
+    .main_descripcion_producto {
+        display: inline;
+    }
+}
+
+@media (min-width: 769px){
+    
+}
