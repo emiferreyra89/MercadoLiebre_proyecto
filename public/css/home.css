@@ -23,7 +23,6 @@
 .main_section_articulos_imagen-producto {
     display: inline;
     text-align: center;
-    border-bottom: 1px solid #ebebeb;
 }
 
 main section div img {
@@ -33,8 +32,8 @@ main section div img {
 .main_section_articulos_descripcion-producto {
     display: flex;
     flex-direction: column;
-    margin: 15px;
-    padding-top: 2%;
+    padding: 15px;
+    border-top: 1px solid #ebebeb;
 }
 
 .main_icono_envio {
@@ -60,7 +59,7 @@ main section div img {
     padding-top: 3%;
 }
 
-@media (min-width: 361px){
+@media (min-width: 768px){
 
     .main_section_articulos {
         box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
@@ -69,8 +68,4 @@ main section div img {
     .main_descripcion_producto {
         display: inline;
     }
-}
-
-@media (min-width: 769px){
-    
 }
