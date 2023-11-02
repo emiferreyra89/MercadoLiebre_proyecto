@@ -1,17 +1,12 @@
-.subtitulo_ultima_visita {
-    font-size: var(--basadoEnUltimasVisitas);
+.subtitulos_ultimaVisita_oferta {
+    font-size: 24px;
     margin: 10px 0px;
     text-align: center;
+    width: 100%;
 }
 
 .cuerpos_de_texto {
     font-size: 12px;
-}
-
-.subtitulo_oferta {
-    font-size: var(--ofertas); 
-    margin: 10px 0px;
-    text-align: center;
 }
 
 .main_section_articulos {
@@ -43,13 +38,14 @@ main section div img {
     height: 30px;
     padding-top: 1px;
     padding-left: 3px;
+    display: block;
 }
 
-.precios {
+#precios {
     font-size: var(--precios);
 }
 
-.descuentos {
+#descuentos {
     font-size: var(--descuentos);
     color: #179217;
 }
@@ -59,13 +55,36 @@ main section div img {
     padding-top: 3%;
 }
 
+
 @media (min-width: 768px){
+
+    main {
+        justify-content: space-around;
+    }
+
+    .subtitulos_ultimaVisita_oferta {
+        text-align: left;
+        margin-left: 5%;
+    }
 
     .main_section_articulos {
         box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+        width: 40%;
     }
-    
+ 
     .main_descripcion_producto {
         display: inline;
     }
+}
+
+@media (min-width: 1200px){
+
+    .subtitulos_ultimaVisita_oferta {
+        margin-left: 2.5%;
+    }
+
+    .main_section_articulos {
+        width: 20%;
+    }
+
 }
