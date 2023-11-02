@@ -103,7 +103,7 @@ main section div img {
     }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1024px){
 
     .subtitulos_ultimaVisita_oferta {
         margin-left: 2.5%;

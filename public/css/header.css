@@ -1,5 +1,8 @@
+header section img {
+    width: 50%;
+}
 .header_img_logo {
-    width: 40%;
+    width: 50%;
     margin: 20px;
 }
 
@@ -25,8 +28,8 @@ header nav {
     display: none;
 }
 
-.header_compra_en_cuotas {
-    text-align: center;
+body section img{
+    width: 100%;
 }
 
 header article i {
@@ -54,20 +57,40 @@ header nav ul li i {
 
 }
 
-@media (min-width: 361px){
+@media (min-width: 320px){
+
+body header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vw;
+}
+
+.header_section_logo_buscador {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}  
+
+.header_img_logo {
+    width: 50%;
+    margin: 3% 0%;
+}
 
 .header_buscador {
+    width: 50%;
     display: flex;
-    width: 60%;
+    justify-content: end;
 }
 
 .header_barra_de_busqueda{
     display: flex;
     align-items: center;
-    margin-right: 1%;
     width: 90%;
     height: 25px;
-    font-size: 85%;
+    font-size: 75%;
+    margin: 0%;
 }
 
 .header_icono_lupa{
@@ -80,29 +103,83 @@ header nav ul li i {
 .header_compra_en_cuotas {
     display: flex;
     justify-content: center;
-    margin: 5%;
+    margin: auto;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    width: 33px;
+    margin: auto;
 }
 
 }
 
-@media (min-width: 769px){
-    header {
+@media (min-width: 768px){
+    body header {
         padding-bottom: 20px;
+        height: 20vw;
     }
 
+    .header_img_logo {
+        width: 30%;
+        margin: 3% 1%;
+    }
+
+    .header_section_logo_buscador {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_buscador {
+        width: 30%;
+        margin: 0%;
+    }
+
+    .header_barra_de_busqueda{
+        margin: 0%;
+    }
+
+    .header_compra_en_cuotas {
+        width: 30%;
+        margin: 1%;
+        font-size: 90%;
+    }
+    
+
     header nav {
-        display: inline;
+        display: flex;
     }
 
     .burger-menu {
         display: none;
     }
 
+    #boxNav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0% 1%;
+    }
+
     .header_listas_margen {
+        display: flex;
         margin: 0px;
+        width: 45%;
+        justify-content: space-between;
+    }
+
+    header nav ul li {
+        padding: 1%;
     }
 
     .header_buscador {
+        width: 35%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header_listas_margen {
         width: 35%;
     }
 }
