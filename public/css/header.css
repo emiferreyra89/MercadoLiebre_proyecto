@@ -138,7 +138,7 @@ body header {
     }
 
     .header_barra_de_busqueda{
-        margin: 0%;
+        margin-right: 5px;
     }
 
     .header_compra_en_cuotas {
