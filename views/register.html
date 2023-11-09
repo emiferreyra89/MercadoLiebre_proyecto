@@ -39,30 +39,32 @@
     </header>
     <section class="body_banner"><img src="/images/img-home-banner.jpg" alt="home banner"/></section>
     <main>
-            <form action="/registro" method="post">
-                <div>
+            <form action="/registro" method="post" class="main_form">
+                <div class="main_form_div">
                     <label for="nombre">Nombre y Apellido</label>
-                    <input type="text"  name="nombre" required>
+                    <input type="text"  name="nombre" placeholder="Nombre y Apellido" required>
                 </div>
-                <div>
-                    <label for="usuario">Nombre de usuari@</label>
-                    <input type="text"  name="usuario" required>
+                <div class="main_form_div">
+                    <label for="usuario">Nombre de usuario</label>
+                    <input type="text"  name="usuario" placeholder="Nombre de usuario" required>
                 </div>
-                <div>
+                <div class="main_form_div">
                     <label for="email">Email</label>
-                    <input type="email"  name="email" required>
+                    <input type="email"  name="email" placeholder="Email" required>
                 </div>
-                <div>
-                    <label for="fecha_de_nacimiento">Fecha de Nacimiento</label>
-                    <input type="date"  name="fecha_de_nacimiento" max="2005-01-01" min="1923-01-01">
-                </div>
-                <div>
+                <article class="main_form_article">
+                    <label for="fecha_de_nacimiento" class="article_label">Fecha de Nacimiento</label>
+                    <div>
+                        <input type="date"  name="fecha_de_nacimiento" id="fecha_de_nacimiento">
+                    </div>
+                </article>
+                <div class="main_form_div">
                     <label for="domicilio">Domicilio</label>
-                    <input type="text"  name="domicilio">
+                    <input type="text"  name="domicilio" placeholder="Domicilio">
                 </div>
 
-                <label for="perfil_de_usuario">Perfil de usuari@</label>
-                <article>
+                <article id="article_perfil_usuario">
+                    <label for="perfil_de_usuario" class="article_label">Perfil de usuario</label>
                     <div>
                         <input type="radio" name="perfil_de_usuario" value="Comprar" id="Comprar">
                         <label for="Comprar">Comprar</label>
@@ -73,8 +75,8 @@
                     </div>
                 </article>
                 
-                <label for="categorias">Categorias de interes</label>
-                <article>
+                <article class="main_form_article">
+                    <label for="categorias" class="article_label">Categorias de interes</label>
                     <div>
                         <input type="checkbox" name="categorias" value="Electro" id="Electro">
                         <label for="Electro">Electro</label>
@@ -97,23 +99,25 @@
                     </div>
                 </article>
 
-                <div>
-                    <label for="foto_usuario">Foto de usuari@</label>
-                    <input type="file" accept="png jpg" name="foto_usuario">
-                </div>
-
-                <div>
+                <article class="main_form_article" id="article_foto_usuario">                    
+                    <label for="foto_usuario" class="article_label">Foto de usuario</label>
+                    <input type="file" accept="image/*" name="foto_usuario"> 
+                </article>
+                
+                <div class="main_form_div">
                     <label for="password">Contraseña</label>
-                    <input type="password" name="password" required>
+                    <input type="password" name="password" placeholder="Contraseña" required>
                 </div>
-
-                <div>
+                
+                <div class="main_form_div">
                     <label for="password">Confirmar contraseña</label>
-                    <input type="password" name="password" required>
+                    <input type="password" name="password" placeholder="Confirmar contraseña" required>
                 </div>
 
-                <button type="submit">Enviar</button>
-                <button type="reset">Borrar</button>
+                <div class="form_div_button">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
             </form>
     </main>
     <footer>
