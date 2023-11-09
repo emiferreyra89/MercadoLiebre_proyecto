@@ -1,0 +1,20 @@
+/*.main_form {
+    border: 1px solid black;
+    width: 90vw;
+}
+
+.main_form_div {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_form_div label{
+    display: none;
+}
+
+.main_form_div input{
+    width: 90%;
+    margin: 2%;
+    padding: 2%;
+}*/
