@@ -1,0 +1,107 @@
+.main_form {
+    width: 90vw;
+}
+
+.main_form_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_form_div input{
+    width: 90%;
+    margin: 2%;
+    padding: 2%;
+}
+
+.main_form_div label{
+    display: none;
+}
+
+#article_perfil_usuario {
+    margin: 2% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#article_perfil_usuario div {
+    display: flex;
+    width: 40%;
+}
+
+#article_perfil_usuario div label {
+    margin: 5% 10%;
+}
+
+#article_perfil_usuario div input {
+    margin: 0% 10%;
+}
+
+.main_form_article {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+}
+
+.article_label {
+    font-weight: bold;
+    width: 100%;
+}
+
+.main_form_article div {
+    margin: 2% 5%;
+}
+
+main form button {
+    background-color: var(--color-Celeste);
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    margin: 0% 1%;
+    padding: 1%;
+}
+
+.form_div_button {
+    margin: 3% 5%;
+}
+
+
+@media (min-width: 1024px) {
+    .main_form {
+        margin-top: 3%;
+    }
+    .main_form_div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_form_div label{
+        display: inline;
+        font-weight: bold;
+    }
+
+    .main_form_article {
+        padding: 0%;
+    }
+
+    .main_form_article input {
+        margin-right: 3%;
+    }
+
+    #article_perfil_usuario {
+        margin: 2% 0%;
+    }
+
+    #article_foto_usuario {
+        flex-direction: row;
+        margin: 3% 0%;
+        padding: 2% 0%;
+    }
+
+    #article_foto_usuario label {
+        width: 15%;
+    }
+
+    .form_div_button {
+        display: flex;
+        flex-direction: row-reverse;  
+}
