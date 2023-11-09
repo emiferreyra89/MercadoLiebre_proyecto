@@ -1,8 +1,8 @@
-.main_form {
+/*.main_form {
     width: 90vw;
-}
+}*/
 
-.main_form_div {
+/*.main_form_div {
     display: flex;
     justify-content: space-around;
 }
@@ -15,7 +15,7 @@
 
 .main_form_div label{
     display: none;
-}
+}*/
 
 #article_perfil_usuario {
     margin: 2% 5%;
@@ -51,7 +51,7 @@
     margin: 2% 5%;
 }
 
-main form button {
+/*main form button {
     background-color: var(--color-Celeste);
     color: white;
     font-weight: bold;
@@ -62,11 +62,11 @@ main form button {
 
 .form_div_button {
     margin: 3% 5%;
-}
+}*/
 
 
 @media (min-width: 1024px) {
-    .main_form {
+    /*.main_form {
         margin-top: 3%;
     }
     .main_form_div {
@@ -77,7 +77,7 @@ main form button {
     .main_form_div label{
         display: inline;
         font-weight: bold;
-    }
+    }*/
 
     .main_form_article {
         padding: 0%;
@@ -101,7 +101,8 @@ main form button {
         width: 15%;
     }
 
-    .form_div_button {
+    /*.form_div_button {
         display: flex;
-        flex-direction: row-reverse;  
+        flex-direction: row-reverse;
+    }
 }
