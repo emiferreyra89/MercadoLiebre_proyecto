@@ -18,3 +18,21 @@
     margin: 2%;
     padding: 2%;
 }*/
+@media (min-width: 1024px) {
+    .main_form {
+        margin-top: 3%;
+    }
+    .main_form_div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_form_div label{
+        display: inline;
+        font-weight: bold;
+    }
+
+    .form_div_button button{
+        width: 30%;
+    }
+}

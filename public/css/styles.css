@@ -91,7 +91,13 @@ main form button {
 }
 
 .form_div_button {
-    margin: 3% 5%;
+    margin: 3% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.form_div_button button{
+    width: 90%;
 }
 
 @media (min-width: 1024px) {
@@ -103,13 +109,12 @@ main form button {
         flex-direction: column;
     }
 
-    .main_form_div label{
+    /* .main_form_div label{
         display: inline;
         font-weight: bold;
     }
 
-    .form_div_button {
-        display: flex;
-        flex-direction: row-reverse;
-    }
+    .form_div_button button{
+        width: 30%;
+    } */
 }
