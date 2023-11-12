@@ -29,6 +29,7 @@ main section div img {
     flex-direction: column;
     padding: 15px;
     border-top: 1px solid #ebebeb;
+    position: relative;
 }
 
 .main_icono_envio {
@@ -39,6 +40,7 @@ main section div img {
     padding-top: 1px;
     padding-left: 3px;
     display: block;
+    position: absolute;
 }
 
 #precios {
