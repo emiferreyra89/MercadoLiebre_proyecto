@@ -55,6 +55,7 @@ footer section i {
     font-size: 2em;
     margin: 30px 0px 10px ;
     color: var(--color-Celeste);
+    transition: all 3ms;
 }
 
 footer article p {
