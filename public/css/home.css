@@ -13,6 +13,11 @@
     display: flex;
     flex-direction: column;
     margin: 5px 0px;
+    transition: all 2ms;
+}
+
+.main_section_articulos:hover {
+    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
 }
 
 .main_section_articulos_imagen-producto {
@@ -39,6 +44,11 @@ main section div img {
     padding-top: 1px;
     padding-left: 3px;
     display: block;
+    transition: all 2s;
+}
+
+.main_icono_envio:hover {
+    transform: rotateZ(-90deg);
 }
 
 #precios {
@@ -53,6 +63,11 @@ main section div img {
 .main_descripcion_producto {
     display: none;
     padding-top: 3%;
+    transition: all 2ms;
+}
+
+.main_section_articulos_descripcion-producto:hover .main_descripcion_producto {
+    display: inline;
 }
 
 @media (min-width: 320px) {
@@ -82,8 +97,6 @@ main section div img {
         flex-grow: 0.7;
     }
  
-    .main_descripcion_producto:hover {
-    }
 }
 
 @media (min-width: 768px){
@@ -99,10 +112,13 @@ main section div img {
     }
 
     .main_section_articulos {
-        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+        /* box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 ); */
         width: 40%;
     }
-    
+
+    /* .main_descripcion_producto {
+        display: inline;
+    }    */
 }
 
 @media (min-width: 1024px){
@@ -139,6 +155,5 @@ main section div img {
 
       footer section i:hover {
         color: var(--color-Amarillo);
-    }
-    
+    }    
 }
