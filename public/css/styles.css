@@ -97,10 +97,6 @@ main form button {
     justify-content: center;
 }
 
-.form_div_button button{
-    
-}
-
 @media (min-width: 1024px) {
     .main_form {
         margin-top: 3%;
