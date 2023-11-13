@@ -18,6 +18,29 @@
     margin: 2%;
     padding: 2%;
 }*/
+.form_login {
+    width: 90%;
+    margin: auto;
+}
+
+.login_button {
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    margin: auto;
+}
+
+.login_button button {
+    background-color: var(--color-Celeste);
+    margin: auto;
+    width: 100%;
+    transition: all 3ms;
+}
+
+.login_button button:hover {
+    background-color: #0022AA;
+}
+
 @media (min-width: 1024px) {
     .main_form {
         margin-top: 3%;
@@ -32,7 +55,7 @@
         font-weight: bold;
     }
 
-    .form_div_button button{
+    /* .form_div_button button{
         width: 30%;
-    }
+    } */
 }
